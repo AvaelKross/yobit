@@ -4,8 +4,8 @@ require 'rest-client'
 require 'addressable/uri'
 
 module Yobit
-  PUBLIC_API_URL = 'https://yobit.net/api/3/'.freeze
-  TRADE_API_URL  = 'https://yobit.net/tapi/'.freeze
+  PUBLIC_API_URL = 'https://yobit.io/api/3/'.freeze
+  TRADE_API_URL  = 'https://yobit.io/tapi/'.freeze
   
   class ApiConfig
     attr_accessor :key, :secret
